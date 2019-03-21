@@ -1,0 +1,11 @@
+import java.time.LocalTime;
+
+public class HelloWorld{
+  private String nome = "Mario";
+  public static void main(String[] args){
+
+    LocalTime gg = LocalTime.now();
+    System.out.println(gg.getHour() + ":" + gg.getMinute() + ":" + gg.getSecond() + " " + "Olá " + "Mário " + "Você acabou de fazer seu primeiro Hello World. Já não era sem tempo.");
+    }
+
+}
